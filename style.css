@@ -47,6 +47,21 @@ img {
     padding-left: 70px;
 }
 
+#sweden{
+    width: 50px;
+    float: right;
+    padding-top: 30px;
+    margin-right: -75px;
+}
+
+#english{
+    width: 50px;
+    float: right;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+
 ol, ul {
 	list-style: none;
 }

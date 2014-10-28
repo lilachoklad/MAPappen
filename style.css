@@ -28,8 +28,25 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	
 }
+
+h1 {
+    font-size: 85px;
+    padding-top: 80px;
+    text-align: center;
+    background: #0C6BA1;
+    color: #FFFFFF;
+    height: 130px;
+}
+
+img {
+    width: 150px;
+    background: #0C6BA1;
+    float: left;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -53,3 +70,21 @@ table {
 }
 
 /* ----- End ----- */
+
+body {
+	font-size: 1em;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto; 
+}
+
+li {
+background-color: #0C6BA1;
+color:white;
+margin-bottom:15px;
+padding-top: 20px;
+padding-bottom: 15px;
+padding-left: 10px;
+}

@@ -30,6 +30,35 @@ body {
 	line-height: 1;
 }
 
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----- End ----- */
+
+
+
+/* HÄR UNDER SKRIVER VI ALL CSS! SKRIV INGET ÖVER DEN HÄR RADEN */
+
+
+body {
+	font-size: 1em;
+	background-color: #D4D6D4;
+}
+
 h1 {
     font-size: 85px;
     padding-top: 80px;
@@ -37,6 +66,7 @@ h1 {
     background: #0C6BA1;
     color: #FFFFFF;
     height: 130px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
@@ -61,45 +91,11 @@ img {
     margin-right: 20px;
 }
 
-
-ol, ul {
-	list-style: none;
-}
-h2{ background:#0C6BA1;
-    color:#FFFFFF;
-    padding:10px;
-    font-family:Arial;
-}
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* ----- End ----- */
-
-body {
-	font-size: 1em;
-	background-color: #D4D6D4;
-}
-
 .content {
 	width: 90%;
 	margin: 0 auto; 
 	font-family: 'Open Sans', sans-serif;
 
-}
-
-h1 {
-font-family: 'Source Sans Pro', sans-serif;
 }
 
 li {
@@ -117,15 +113,25 @@ li {
 	font-size: 2em;
 }
 
-.tjocktext{
+.tjocktext {
     font-weight: bold;
 }
-h3{padding:5px;
+
+h2{ background:#0C6BA1;
+    color:#FFFFFF;
+    padding:10px;
+    font-family:Arial;
+}
+
+h3 {
+	padding:5px;
     font-family:Arial;
     font-size:20px;
     font-weight: bold;
 }
-p{padding:5px;
+
+p {
+	padding:5px;
     font-family:Arial;
     font-size:15px;
 }

@@ -75,6 +75,11 @@ body {
 	font-size: 1em;
 }
 
+.content {
+	width: 90%;
+	margin: 0 auto; 
+}
+
 li {
 background-color: #0C6BA1;
 color:white;

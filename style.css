@@ -73,6 +73,7 @@ table {
 
 body {
 	font-size: 1em;
+	background-color: #D4D6D4;
 }
 
 .content {
@@ -81,12 +82,18 @@ body {
 }
 
 li {
-background-color: #0C6BA1;
-color:white;
-margin-bottom:15px;
-padding-top: 20px;
-padding-bottom: 15px;
-padding-left: 10px;
+	background-color: #0C6BA1;
+	color: #FFFDEB;
+	margin-bottom:15px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.icon-in-list {
+	color: #FF7500;
+	float: right;
+	font-size: 2em;
 }
 
 .tjocktext{

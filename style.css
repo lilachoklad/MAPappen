@@ -101,7 +101,7 @@ img {
 li {
 	background-color: #0C6BA1;
 	color: #FFFDEB;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 	padding-top: 20px;
 	padding-bottom: 15px;
 	padding-left: 10px;
@@ -117,21 +117,21 @@ li {
     font-weight: bold;
 }
 
-h2{ background:#0C6BA1;
-    color:#FFFFFF;
-    padding:10px;
-    font-family:Arial;
+h2{ background: #0C6BA1;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: Arial;
 }
 
 h3 {
-	padding:5px;
-    font-family:Arial;
-    font-size:20px;
+	padding: 5px;
+    font-family: Arial;
+    font-size: 20px;
     font-weight: bold;
 }
 
 p {
-	padding:5px;
-    font-family:Arial;
-    font-size:15px;
+	padding: 5px;
+    font-family: Arial;
+    font-size: 15px;
 }

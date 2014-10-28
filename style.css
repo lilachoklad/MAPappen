@@ -47,6 +47,21 @@ img {
     padding-left: 70px;
 }
 
+#sweden{
+    width: 50px;
+    float: right;
+    padding-top: 30px;
+    margin-right: -75px;
+}
+
+#english{
+    width: 50px;
+    float: right;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -73,6 +88,7 @@ table {
 
 body {
 	font-size: 1em;
+	background-color: #D4D6D4;
 }
 
 .content {
@@ -87,10 +103,29 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 li {
-background-color: #0C6BA1;
-color:white;
-margin-bottom:15px;
-padding-top: 20px;
-padding-bottom: 15px;
-padding-left: 10px;
+	background-color: #0C6BA1;
+	color: #FFFDEB;
+	margin-bottom:15px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.icon-in-list {
+	color: #FF7500;
+	float: right;
+	font-size: 2em;
+}
+
+.tjocktext{
+    font-weight: bold;
+}
+h3{padding:5px;
+    font-family:Arial;
+    font-size:20px;
+    font-weight: bold;
+}
+p{padding:5px;
+    font-family:Arial;
+    font-size:15px;
 }

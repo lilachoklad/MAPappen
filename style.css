@@ -25,6 +25,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -49,6 +50,12 @@ img {
 ol, ul {
 	list-style: none;
 }
+h2{ background:#0C6BA1;
+    color:#FFFFFF;
+    padding:10px;
+    font-family:Arial;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -63,3 +70,16 @@ table {
 }
 
 /* ----- End ----- */
+
+body {
+	font-size: 1em;
+}
+
+li {
+background-color: #0C6BA1;
+color:white;
+margin-bottom:15px;
+padding-top: 20px;
+padding-bottom: 15px;
+padding-left: 10px;
+}

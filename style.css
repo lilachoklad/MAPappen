@@ -78,6 +78,12 @@ body {
 .content {
 	width: 90%;
 	margin: 0 auto; 
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 li {

@@ -155,3 +155,17 @@ p {
 #mapcontainer {
 	width: 100%;
 }
+
+#vagbeskrivning-knapp {
+background-color: #0C6BA1;
+color: #FFFFFF;
+padding-bottom:50px;
+padding-top: 50px;
+font-family: 'Open Sans', sans-serif;
+}
+
+a#displayText {
+	color: #FFFFFF;
+
+}
+

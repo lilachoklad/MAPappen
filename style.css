@@ -59,7 +59,8 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3.5em;
+
     padding-top: 80px;
     text-align: center;
     background: #0C6BA1;
@@ -140,12 +141,14 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+  
 }
 
 p {
 	padding-top: 4%;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 #wrapper {

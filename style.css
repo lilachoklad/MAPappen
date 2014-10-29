@@ -59,13 +59,12 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
-
-    padding-top: 80px;
+    font-size: 1.8em;
+    padding-top: 50px;
     text-align: center;
     background: #0C6BA1;
     color: #FFFFFF;
-    height: 130px;
+    height: 50px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -73,7 +72,7 @@ img {
     width: 70px;
     background: #0C6BA1;
     float: left;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 30px;
 }
 
@@ -102,8 +101,8 @@ li {
 	background-color: #0C6BA1;
 	color: #FFFDEB;
 	margin-bottom: 15px;
-	padding-top: 20px;
-	padding-bottom: 60px;
+	padding-top: 5px;
+	padding-bottom: 15px;
 	padding-left: 6%;
     font-size: 0.8em;
     
@@ -146,7 +145,7 @@ h3 {
 
 p {
 	padding-top: 4%;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
     
 }

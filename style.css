@@ -55,26 +55,25 @@ table {
 
 
 body {
-	font-size: 1em;
 	background-color: #D4D6D4;
 }
 
 h1 {
-    font-size: 85px;
-    padding-top: 80px;
+    font-size: 1.8em;
+    padding-top: 50px;
     text-align: center;
     background: #0C6BA1;
     color: #FFFFFF;
-    height: 130px;
+    height: 50px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
-    width: 150px;
+    width: 70px;
     background: #0C6BA1;
     float: left;
-    padding-top: 40px;
-    padding-left: 70px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 #sweden{
@@ -102,9 +101,11 @@ li {
 	background-color: #0C6BA1;
 	color: #FFFDEB;
 	margin-bottom: 15px;
-	padding-top: 20px;
+	padding-top: 5px;
 	padding-bottom: 15px;
-	padding-left: 10px;
+	padding-left: 6%;
+    font-size: 0.8em;
+    
 }
 
 .icon-in-list {
@@ -135,16 +136,18 @@ a {text-decoration:none;}
 
 h3 {
 	padding-top: 10%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 7em;
+    font-size: 1.5em;
     font-weight: bold;
+  
 }
 
 p {
 	padding-top: 4%;
-    font-size: 2.2em;
+    font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 #wrapper {
@@ -155,3 +158,17 @@ p {
 #mapcontainer {
 	width: 100%;
 }
+
+#vagbeskrivning-knapp {
+background-color: #0C6BA1;
+color: #FFFFFF;
+padding-bottom:50px;
+padding-top: 50px;
+font-family: 'Open Sans', sans-serif;
+}
+
+a#displayText {
+	color: #FFFFFF;
+
+}
+

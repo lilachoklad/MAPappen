@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="initial-scale=1.0">
+        
+
 		<title>Where to pee?</title>
 		<link rel='stylesheet' type='text/css' href="style.css"/>
         <link href="fontello-0c05ece3/css/fontello.css" rel="stylesheet" type="text/css" />
@@ -30,7 +35,27 @@
 			<img id="sweden" src="sweden_glossy_square_icon_64.png">!-->
 			<img src="Toilets_unisex.png">
 			<h1>Where to pee?</h1>
-          <link rel="apple-touch-icon" href="Icon-60.png">
+            
+             <link rel="apple-touch-icon" href="toa120.png" />
+            <link rel="apple-touch-icon" sizes="180x180" href="toa180.png" />
+            <link rel="apple-touch-icon" sizes="76x76" href="toa76.png" />
+            <link rel="apple-touch-icon" sizes="152x152" href="toa152.png" />
+            <link rel="apple-touch-icon" sizes="58x58" href="toa58.png" />
+     
+              <!-- iPhone 3GS, 2011 iPod Touch -->
+            <link rel="apple-touch-startup-image" href="splash320x460.png" media="screen and (max-                  device-width : 320px)">
+
+            <!-- iPhone 4, 4S and 2011 iPod Touch -->
+            <link rel="apple-touch-startup-image" href="splash640x920.png" media="(max-device-width             : 480px) and (-webkit-min-device-pixel-ratio : 2)">
+
+            <!-- iPhone 5 and 2012 iPod Touch -->
+            <link rel="apple-touch-startup-image" href="splash640x1096.png" media="(max-device-width            : 548px) and (-webkit-min-device-pixel-ratio : 2)">
+
+            <!-- iPad landscape -->
+            <link rel="apple-touch-startup-image" sizes="1024x748" href="splash1024x748.png"                        media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and                (orientation : landscape)">
+
+            <!-- iPad Portrait -->
+            <link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png"                        media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (                  orientation : portrait)">
 		</header>
         
 		<div class="content"> <!-- I den här diven ligger själva innehållet på sidan -->
@@ -104,6 +129,28 @@
 			<!-- SLUT PÅ KARTA -->
         </div>
         
+				            <script language="javascript"> 
+				function toggle() {
+					var ele = document.getElementById("toggleText");
+					var text = document.getElementById("displayText");
+					if(ele.style.display == "block") {
+				    		ele.style.display = "none";
+						text.innerHTML = "Detaljerad vägbeskrivning";
+				  	}
+					else {
+						ele.style.display = "block";
+						text.innerHTML = "Detaljerad vägbeskrivning";
+					}
+				} 
+				</script>
+				 
+				<div id="vagbeskrivning-knapp"><a id="displayText" href="javascript:toggle();">Detaljerad vägbeskrivning</a></div> 
+				<div id="toggleText" style="display: none"><p>Vägbeskrivning</p></div>
+
+        
+				
+				
+				
 
         <a href="index.html">
             <div id="tillbaka">

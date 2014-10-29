@@ -138,3 +138,12 @@ p {
     font-size: 10em;
     font-family: 'Open Sans', sans-serif;
 }
+
+#wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#mapcontainer {
+	width: 100%;
+}

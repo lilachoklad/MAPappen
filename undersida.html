@@ -127,38 +127,39 @@
 			</script>
 			
 			<!-- SLUT PÅ KARTA -->
-        </div>
+
         
-				            <script language="javascript"> 
+			<!-- Detaljerad vägbeskrivning -->
+			<script language="javascript"> 
 				function toggle() {
 					var ele = document.getElementById("toggleText");
-					var text = document.getElementById("displayText");
 					if(ele.style.display == "block") {
-				    		ele.style.display = "none";
-						text.innerHTML = "Detaljerad vägbeskrivning";
-				  	}
+							ele.style.display = "none";
+					}
 					else {
 						ele.style.display = "block";
-						text.innerHTML = "Detaljerad vägbeskrivning";
 					}
 				} 
-				</script>
-				 
-				<div id="vagbeskrivning-knapp"><a id="displayText" href="javascript:toggle();">Detaljerad vägbeskrivning</a><i class="icon-right-open icon-in-list" ></i></div> 
-				<div id="toggleText" style="display: none"><p>Vägbeskrivning</p>
+			</script>
+			 
+			<a id="displayText" href="javascript:toggle();">
+				<div id="vagbeskrivning-knapp">
+					Detaljerad vägbeskrivning<i class="icon-right-open icon-in-list" ></i>
+				</div> 
+			</a>
+			<div id="toggleText" style="display: none">
 				<p>Vägbeskrivning</p>
-			    <p>Vägbeskrivning</p></div>
+				<p>Vägbeskrivning</p>
+				<p>Vägbeskrivning</p>
+			</div>
 
-        
-				
-				
-				
-
-        <a href="index.html">
-            <div id="tillbaka">
-                <h2><i class="icon-left-open icon-tillbaka" ></i>TILLBAKA</h2>  
-            </div>
-        </a>
+			
+			<!-- Tillbakaknapp -->
+			<a href="index.html">
+				<div id="tillbaka">
+					<h2><i class="icon-left-open icon-tillbaka" ></i>TILLBAKA</h2>  
+				</div>
+			</a>
         </div>
 	</body>
 

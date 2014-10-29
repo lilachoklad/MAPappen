@@ -113,6 +113,12 @@ li {
 	font-size: 2em;
 }
 
+.icon-tillbaka{
+ 	color: #FF7500;
+	float: left;
+	font-size: 2em;   
+}
+
 .tjocktext {
     font-weight: bold;
 }
@@ -120,21 +126,23 @@ li {
 a {text-decoration:none;}
 #tillbaka{ background: #0C6BA1;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 6%;
+    margin-top: 15%;
     font-family: 'Open Sans', sans-serif;
 
 
 }
 
 h3 {
-	padding: 5px;
+	padding-top: 10%;
+    padding-bottom: 4%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 7em;
     font-weight: bold;
 }
 
 p {
-	padding: 5px;
-    font-size: 10em;
+	padding-top: 4%;
+    font-size: 2.2em;
     font-family: 'Open Sans', sans-serif;
 }

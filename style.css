@@ -172,3 +172,15 @@ a#displayText {
 
 }
 
+#map {
+	float: left;
+	width: 60%;
+	height: 500px;
+	margin: 50px auto;
+}
+
+#map-directions {
+	float: right;
+	width: 38%;
+	padding-left: 2%;
+}

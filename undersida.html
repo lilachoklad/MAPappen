@@ -76,7 +76,7 @@
 							var travel = {
 									origin : (start.coords)? new google.maps.LatLng(start.lat, start.lng) : 
 									start.address,
-									destination : "Alexanderplatz, Berlin",
+									destination : "Göteborg",
 									travelMode : google.maps.DirectionsTravelMode.WALKING
 									// Exchanging DRIVING to WALKING above can prove quite amusing :-)
 								},
@@ -125,6 +125,9 @@
 						}
 				})();
 			</script>
+			
+			<div id="map"> </div>
+			<div id="map-directions"> </div>
 			
 			<!-- SLUT PÅ KARTA -->
 

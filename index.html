@@ -15,38 +15,38 @@
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>	
 		<script>
 			if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(success);
-} else {
-  error('Geo Location is not supported');
-}
-navigator.geolocation.getCurrentPosition(success);
+			  navigator.geolocation.getCurrentPosition(success);
+			} else {
+			  error('Geo Location is not supported');
+			}
+			navigator.geolocation.getCurrentPosition(success);
 
-function success(position) {
-     var lat = position.coords.latitude;
-     var long = position.coords.longitude;
-}
+			function success(position) {
+				 var lat = position.coords.latitude;
+				 var long = position.coords.longitude;
+			}
 		</script>
-        
-    <link rel="apple-touch-icon" href="toa120.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="toa180.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="toa76.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="toa152.png" />
-  <link rel="apple-touch-icon" sizes="58x58" href="toa58.png" />
-      
-  <!-- iPhone 3GS, 2011 iPod Touch -->
-    <link rel="apple-touch-startup-image" href="splash320x460.png" media="screen and (max-device-width : 320px)">
+					
+			<link rel="apple-touch-icon" href="toa120.png" />
+			<link rel="apple-touch-icon" sizes="180x180" href="toa180.png" />
+			<link rel="apple-touch-icon" sizes="76x76" href="toa76.png" />
+			<link rel="apple-touch-icon" sizes="152x152" href="toa152.png" />
+			<link rel="apple-touch-icon" sizes="58x58" href="toa58.png" />
 
-<!-- iPhone 4, 4S and 2011 iPod Touch -->
-<link rel="apple-touch-startup-image" href="splash640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)">
+			<!-- iPhone 3GS, 2011 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash320x460.png" media="screen and (max-device-width : 320px)">
 
-<!-- iPhone 5 and 2012 iPod Touch -->
-<link rel="apple-touch-startup-image" href="splash640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)">
+			<!-- iPhone 4, 4S and 2011 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)">
 
-<!-- iPad landscape -->
-<link rel="apple-touch-startup-image" sizes="1024x748" href="splash1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)">
+			<!-- iPhone 5 and 2012 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)">
 
-<!-- iPad Portrait -->
-<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
+			<!-- iPad landscape -->
+			<link rel="apple-touch-startup-image" sizes="1024x748" href="splash1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)">
+
+			<!-- iPad Portrait -->
+			<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
         
 	</head>
 
@@ -74,42 +74,42 @@ function success(position) {
 
 				    </article>
 				<script>
-				function success(position) {
-				  var mapcanvas = document.createElement('div');
-				  mapcanvas.id = 'mapcontainer';
-				  mapcanvas.style.height = '400px';
-				  mapcanvas.style.width = '100%';
+					function success(position) {
+					  var mapcanvas = document.createElement('div');
+					  mapcanvas.id = 'mapcontainer';
+					  mapcanvas.style.height = '400px';
+					  mapcanvas.style.width = '100%';
 
-				  document.querySelector('article').appendChild(mapcanvas);
+					  document.querySelector('article').appendChild(mapcanvas);
 
-				  var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-				  
-				  var options = {
-				    zoom: 15,
-				    center: coords,
-				    mapTypeControl: false,
-				    navigationControlOptions: {
-				    	style: google.maps.NavigationControlStyle.SMALL
-				    },
-				    mapTypeId: google.maps.MapTypeId.ROADMAP
-				  };
-				  var map = new google.maps.Map(document.getElementById("mapcontainer"), options);
+					  var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+					  
+					  var options = {
+						zoom: 15,
+						center: coords,
+						mapTypeControl: false,
+						navigationControlOptions: {
+							style: google.maps.NavigationControlStyle.SMALL
+						},
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					  };
+					  var map = new google.maps.Map(document.getElementById("mapcontainer"), options);
 
-				  var marker = new google.maps.Marker({
-				      position: coords,
-				      map: map,
-				      title:"You are here!"
-				  });
-				}
+					  var marker = new google.maps.Marker({
+						  position: coords,
+						  map: map,
+						  title:"You are here!"
+					  });
+					}
 
-				if (navigator.geolocation) {
-				  navigator.geolocation.getCurrentPosition(success);
-				} else {
-				  error('Geo Location is not supported');
-				}
+					if (navigator.geolocation) {
+					  navigator.geolocation.getCurrentPosition(success);
+					} else {
+					  error('Geo Location is not supported');
+					}
 
 				</script>
-</section>
+			</section>
 
 
 			<!-- Lista med närmsta toaletterna -->

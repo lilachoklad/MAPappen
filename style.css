@@ -117,10 +117,13 @@ li {
     font-weight: bold;
 }
 
-h2{ background: #0C6BA1;
+a {text-decoration:none;}
+#tillbaka{ background: #0C6BA1;
     color: #FFFFFF;
     padding: 10px;
     font-family: Arial;
+    
+    
 }
 
 h3 {

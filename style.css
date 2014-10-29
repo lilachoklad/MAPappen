@@ -55,12 +55,11 @@ table {
 
 
 body {
-	font-size: 1em;
 	background-color: #D4D6D4;
 }
 
 h1 {
-    font-size: 85px;
+    font-size: 5em;
     padding-top: 80px;
     text-align: center;
     background: #0C6BA1;
@@ -103,8 +102,10 @@ li {
 	color: #FFFDEB;
 	margin-bottom: 15px;
 	padding-top: 20px;
-	padding-bottom: 15px;
-	padding-left: 10px;
+	padding-bottom: 60px;
+	padding-left: 6%;
+    font-size: 0.8em;
+    
 }
 
 .icon-in-list {
@@ -137,14 +138,14 @@ h3 {
 	padding-top: 10%;
     padding-bottom: 4%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 7em;
     font-weight: bold;
+    font-size: 6em;
 }
 
 p {
 	padding-top: 4%;
-    font-size: 2.2em;
     font-family: 'Open Sans', sans-serif;
+    font-size: 2.76em;
 }
 
 #wrapper {

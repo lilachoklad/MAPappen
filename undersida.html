@@ -26,6 +26,31 @@
 				 var long = position.coords.longitude;
 			}
 		</script>
+        
+           	<link rel="apple-touch-icon" href="toa120.png" />
+			<link rel="apple-touch-icon" sizes="180x180" href="toa180.png" />
+			<link rel="apple-touch-icon" sizes="76x76" href="toa76.png" />
+			<link rel="apple-touch-icon" sizes="152x152" href="toa152.png" />
+			<link rel="apple-touch-icon" sizes="58x58" href="toa58.png" />
+
+			<!-- iPhone 3GS, 2011 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash320x460.png" media="screen and (max-device-width : 320px)">
+
+			<!-- iPhone 4, 4S and 2011 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)">
+
+			<!-- iPhone 5 and 2012 iPod Touch -->
+			<link rel="apple-touch-startup-image" href="splash640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)">
+
+			<!-- iPad landscape -->
+			<link rel="apple-touch-startup-image" sizes="1024x748" href="splash1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)">
+
+			<!-- iPad Portrait -->
+			<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
+		
+        
+		
+		
 	</head>
 
 	<body>
@@ -36,36 +61,10 @@
 			<img src="Toilets_unisex.png">
 			<h1>Where to pee?</h1>
             
-             <link rel="apple-touch-icon" href="toa120.png" />
-            <link rel="apple-touch-icon" sizes="180x180" href="toa180.png" />
-            <link rel="apple-touch-icon" sizes="76x76" href="toa76.png" />
-            <link rel="apple-touch-icon" sizes="152x152" href="toa152.png" />
-            <link rel="apple-touch-icon" sizes="58x58" href="toa58.png" />
-     
-              <!-- iPhone 3GS, 2011 iPod Touch -->
-            <link rel="apple-touch-startup-image" href="splash320x460.png" media="screen and (max-                  device-width : 320px)">
-
-            <!-- iPhone 4, 4S and 2011 iPod Touch -->
-            <link rel="apple-touch-startup-image" href="splash640x920.png" media="(max-device-width             : 480px) and (-webkit-min-device-pixel-ratio : 2)">
-
-            <!-- iPhone 5 and 2012 iPod Touch -->
-            <link rel="apple-touch-startup-image" href="splash640x1096.png" media="(max-device-width            : 548px) and (-webkit-min-device-pixel-ratio : 2)">
-
-            <!-- iPad landscape -->
-            <link rel="apple-touch-startup-image" sizes="1024x748" href="splash1024x748.png"                        media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and                (orientation : landscape)">
-
-            <!-- iPad Portrait -->
-            <link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png"                        media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (                  orientation : portrait)">
-		</header>
+        </header>
         
 		<div class="content"> <!-- I den här diven ligger själva innehållet på sidan -->
 		
-			<h3>Centralstationen</h3>
-			<p><span class="tjocktext">Öppetider:</span> 05-23</p>
-			<p><span class="tjocktext">Gratis:</span> NEJ</p>
-			<p><span class="tjocktext">Handdikappsanpassad:</span> JA</p>
-			<p><span class="tjocktext">Skötbord:</span> JA</p>
-			
 			<!-- Karta SOM EJ FUNGERAR -->
 			<script src="http://maps.google.se/maps/api/js?sensor=false"></script>
 			<script>
@@ -108,28 +107,36 @@
 									});
 								}, 
 								function () {
-									// Gelocation fallback: Defaults to Stockholm, Sweden
+									// Gelocation fallback: Defaults to Göteborg
 									createMap({
 										coords : false,
-										address : "Sveavägen, Stockholm"
+										address : "Göteborg"
 									});
 								}
 							);
 						}
 						else {
-							// No geolocation fallback: Defaults to Lisbon, Portugal
+							// No geolocation fallback: Defaults to Göteborg
 							createMap({
 								coords : false,
-								address : "Lisbon, Portugal"
+								address : "Göteborg"
 							});
 						}
 				})();
 			</script>
 			
 			<div id="map"> </div>
-			<div id="map-directions"> </div>
+			
 			
 			<!-- SLUT PÅ KARTA -->
+		
+			<h3>Centralstationen</h3>
+			<p><span class="tjocktext">Öppetider:</span> 05-23</p>
+			<p><span class="tjocktext">Gratis:</span> NEJ</p>
+			<p><span class="tjocktext">Handdikappsanpassad:</span> JA</p>
+			<p><span class="tjocktext">Skötbord:</span> JA</p>
+			
+			
 
         
 			<!-- Detaljerad vägbeskrivning -->
@@ -151,6 +158,7 @@
 				</div> 
 			</a>
 			<div id="toggleText" style="display: none">
+				<div id="map-directions"> </div>
 				<p>Vägbeskrivning</p>
 				<p>Vägbeskrivning</p>
 				<p>Vägbeskrivning</p>

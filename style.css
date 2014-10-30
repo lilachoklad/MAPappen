@@ -68,7 +68,7 @@ h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-img {
+.logga{
     width: 70px;
     background: #0C6BA1;
     float: left;
@@ -175,13 +175,12 @@ a#displayText {
 
 #map {
 	float: left;
-	width: 60%;
+	width: 100%;
 	height: 500px;
 	margin: 50px auto;
 }
 
 #map-directions {
-	float: right;
-	width: 38%;
+	width: 100%;
 	padding-left: 2%;
 }

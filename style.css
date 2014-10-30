@@ -106,7 +106,7 @@ li {
 	background-color: #0C6BA1;
 	color: #FFFDEB;
 	margin-bottom: 15px;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 6%;
     font-size: 0.8em;
@@ -129,14 +129,16 @@ li {
     font-weight: bold;
 }
 
-a {text-decoration:none;}
-#tillbaka{ background: #0C6BA1;
+a {
+	text-decoration: none;
+}
+
+#tillbaka{ 
+	background: #0C6BA1;
     color: #FFFFFF;
     padding: 6%;
     margin-top: 15%;
     font-family: 'Open Sans', sans-serif;
-
-
 }
 
 h3 {
@@ -148,7 +150,6 @@ h3 {
 }
 
 p {
-	margin-bottom: 30px;
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
     

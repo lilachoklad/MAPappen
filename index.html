@@ -123,6 +123,24 @@
                 <a href="undersida.html"><li><p>Nils Ericson Terminalen, 1.3 km <i class="icon-right-open icon-in-list" ></i></p></li></a>
 			</ul> 
 			
+			<div ng-controller = "MyController">
+				<h3>{{toaletter.namn}} </h3>
+				<p>{{toaletter.oppettider}} </p>
+			</div>
+			
+			<script>
+				function MyController($scope) {
+			
+					$scope.toaletter = {
+						'namn' : 'City Avenyn',
+						'adress' : 'Kungsportsavenyn 34',
+						'oppettider' : '07-21',
+						'gratis' : 'Ja',
+						'handikappanpassad' : 'Ja',
+						'skotbord' : 'Ja'
+					}
+				}
+			</script>
 			
 		</div>
 	</body>

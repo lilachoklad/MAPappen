@@ -60,12 +60,6 @@
         
 		<div class="content"> <!-- I den här diven ligger själva innehållet på sidan -->
 		
-			<h3>Centralstationen</h3>
-			<p><span class="tjocktext">Öppetider:</span> 05-23</p>
-			<p><span class="tjocktext">Gratis:</span> NEJ</p>
-			<p><span class="tjocktext">Handdikappsanpassad:</span> JA</p>
-			<p><span class="tjocktext">Skötbord:</span> JA</p>
-			
 			<!-- Karta SOM EJ FUNGERAR -->
 			<script src="http://maps.google.se/maps/api/js?sensor=false"></script>
 			<script>
@@ -108,28 +102,36 @@
 									});
 								}, 
 								function () {
-									// Gelocation fallback: Defaults to Stockholm, Sweden
+									// Gelocation fallback: Defaults to Göteborg
 									createMap({
 										coords : false,
-										address : "Sveavägen, Stockholm"
+										address : "Göteborg"
 									});
 								}
 							);
 						}
 						else {
-							// No geolocation fallback: Defaults to Lisbon, Portugal
+							// No geolocation fallback: Defaults to Göteborg
 							createMap({
 								coords : false,
-								address : "Lisbon, Portugal"
+								address : "Göteborg"
 							});
 						}
 				})();
 			</script>
 			
 			<div id="map"> </div>
-			<div id="map-directions"> </div>
+			
 			
 			<!-- SLUT PÅ KARTA -->
+		
+			<h3>Centralstationen</h3>
+			<p><span class="tjocktext">Öppetider:</span> 05-23</p>
+			<p><span class="tjocktext">Gratis:</span> NEJ</p>
+			<p><span class="tjocktext">Handdikappsanpassad:</span> JA</p>
+			<p><span class="tjocktext">Skötbord:</span> JA</p>
+			
+			
 
         
 			<!-- Detaljerad vägbeskrivning -->
@@ -151,6 +153,7 @@
 				</div> 
 			</a>
 			<div id="toggleText" style="display: none">
+				<div id="map-directions"> </div>
 				<p>Vägbeskrivning</p>
 				<p>Vägbeskrivning</p>
 				<p>Vägbeskrivning</p>

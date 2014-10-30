@@ -203,3 +203,10 @@ a#displayText {
 #map-directions {
 	width: 100%;
 }
+
+.ikon {
+	float: right;
+	height: 30px;
+	padding-right: 40px;
+
+}

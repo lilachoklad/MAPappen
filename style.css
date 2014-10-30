@@ -109,20 +109,27 @@ li {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 6%;
-    font-size: 0.8em;
+    font-size: 1.1em;
     
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+	margin: 0;
+	display: inline-block;
+	font-size: 1.1em;
 }
 
 .icon-in-list {
 	color: #FF7500;
 	float: right;
-	font-size: 2em;
+	/*font-size: 2em; */
+	padding-right: 6%;
 }
 
 .icon-tillbaka{
  	color: #FF7500;
 	float: left;
-	font-size: 2em;   
+	/*font-size: 2em;*/
 }
 
 .tjocktext {
@@ -136,8 +143,11 @@ a {
 #tillbaka{ 
 	background: #0C6BA1;
     color: #FFFFFF;
-    padding: 6%;
-    margin-top: 15%;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 6%;
+    font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -149,9 +159,11 @@ h3 {
   
 }
 
-p {
+.info-text {
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+	padding-left: 6%;
     
 }
 
@@ -169,9 +181,10 @@ p {
 	background-color: #0C6BA1;
 	color: #FFFFFF;
 	margin-bottom: 15px;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 6%;
+    font-size: 1.1em;
 	font-family: 'Open Sans', sans-serif;
 }
 

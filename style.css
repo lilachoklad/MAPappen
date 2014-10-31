@@ -64,11 +64,11 @@ header {
 
 
 h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     padding-top: 50px;
     text-align: center;
     background: #0C6BA1;
-    color: #FFFFFF;
+    color: #FFFDEB;
     height: 50px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -138,11 +138,12 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 
 a {
 	text-decoration: none;
+	color: #FFFDEB;
 }
 
 #tillbaka{ 
 	background: #0C6BA1;
-    color: #FFFFFF;
+    color: #FFFDEB;
 	margin-bottom: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -179,7 +180,7 @@ h3 {
 
 #vagbeskrivning-knapp {
 	background-color: #0C6BA1;
-	color: #FFFFFF;
+	color: #FFFDEB;
 	margin-bottom: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -189,7 +190,7 @@ h3 {
 }
 
 a#displayText {
-	color: #FFFFFF;
+	color: #FFFDEB;
 
 }
 
@@ -207,6 +208,6 @@ a#displayText {
 .ikon {
 	float: right;
 	height: 25px;
-	padding-right: 40px;
+	padding-right: 20px;
 
 }

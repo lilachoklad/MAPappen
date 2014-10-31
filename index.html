@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="myApp">
 	<head>
 		<meta charset="UTF-8">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,6 +49,7 @@
 			<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
         
 			<script src="angular.js"></script>
+			<script src="controller.js"></script>
 		
 	</head>
 
@@ -130,20 +131,7 @@
 				<h3>{{toaletter.namn}} </h3>
 				<p>{{toaletter.oppettider}} </p>
 			</div>
-			
-			<script>
-				function MyController($scope) {
-			
-					$scope.toaletter = {
-						'namn' : 'City Avenyn',
-						'adress' : 'Kungsportsavenyn 34',
-						'oppettider' : '07-21',
-						'gratis' : 'Ja',
-						'handikappanpassad' : 'Ja',
-						'skotbord' : 'Ja'
-					}
-				}
-			</script>
+
 			
 		</div>
 	</body>

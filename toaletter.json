@@ -4,28 +4,28 @@
 		{
 			”namn”: ”City Avenyn”,
 			”adress”: ”Kungsportsavenyn 34”,
-			”öppettider”: ”07-21”,
+			”oppettider”: ”07-21”,
 			”gratis”: ”Ja”,
 			”handikappanpassad”: ”Ja”,
-			”skötbord”: ”Ja"
+			”skotbord”: ”Ja"
 		},
 
 		{
 			”namn”: ”Stadsmuseet”,
 			”adress”: ”Norra Hamngatan 12”,
-			”öppettider”: ”Dygnet runt”,
+			”oppettider”: ”Dygnet runt”,
 			”gratis”: ”Ja”,
 			”handikappanpassad”: ”Ja”,
-			”skötbord”: ”Ja"
+			”skotbord”: ”Ja"
 		},
 
 		{
 			”namn”: ”Hemköp”,
 			”adress”: ”Hvitfeldtsplatsen 3”,
-			”öppettider”: ”08-22”,
+			”oppettider”: ”08-22”,
 			”gratis”: ”Nej”,
 			”handikappanpassad”: ”Ja”,
-			”skötbord”: ”Ja"
+			”skotbord”: ”Ja"
 		}
 		
 

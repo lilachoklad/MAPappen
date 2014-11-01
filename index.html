@@ -49,7 +49,7 @@
 			<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
         
 			<script src="angular.js"></script>
-			<script src="controller.js"></script>
+			<script src="controllers.js"></script>
 		
 	</head>
 
@@ -129,9 +129,15 @@
 			</ul> 
 			
 			<div ng-controller = "MyController">
-				<h3>{{toaletter.namn}} </h3>
-				<p>{{toaletter.oppettider}} </p>
+				<ul>
+					<li ng-repeat="item in toaletter"><h2>{{item.namn}}</h2></li>
+				</ul> 
+			
 			</div>
+			<!--
+				<h3>{{toaletter.namn}} </h3>
+				<p>{{toaletter.oppettider}} </p> -->
+
 
 			
 		</div>

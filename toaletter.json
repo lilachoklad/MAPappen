@@ -3,6 +3,7 @@
 [
 		{
 			"namn": "City Avenyn",
+			"ikon": "vektorrullstol",
 			"adress": "Kungsportsavenyn 34 Göteborg",
 			"oppettider": "07-21",
 			"gratis": "Ja",
@@ -12,6 +13,7 @@
 
 		{
 			"namn": "Stadsmuseet",
+			"ikon": "vektornapp",
 			"adress": "Norra Hamngatan 12 Göteborg",
 			"oppettider": "Dygnet runt",
 			"gratis": "Ja",
@@ -21,6 +23,7 @@
 
 		{
 			"namn": "Hemköp",
+			"ikon": "vektordollar",
 			"adress": "Hvitfeldtsplatsen 3 Göteborg",
 			"oppettider": "08-22",
 			"gratis": "Nej",

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 	<head>
 		<meta charset="UTF-8">
  <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,7 +49,8 @@
 			<!-- iPad Portrait -->
 			<link rel="apple-touch-startup-image" sizes="768x1004" href="splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
 		
-        
+        	<script src="angular.js"></script>
+			<script src="controllers.js"></script>
 		
 		
 	</head>
@@ -130,7 +131,10 @@
 			
 			
 			<!-- SLUT PÅ KARTA -->
-		
+			<div ng-controller = "MyController">
+					<li ng-repeat="item in toaletter"><h3>{{item.namn}} </h3></li> 
+			
+			</div>
 			<h3>Centralstationen</h3>
 			<p class="info-text"><span class="tjocktext">Öppetider:</span> 05-23</p>
 			<p class="info-text"><span class="tjocktext">Gratis:</span> NEJ</p>

@@ -9,7 +9,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
 		templateUrl: 'partials/list.html',
 		controller: 'ListController'
 	}).
-	otherwhise({
+	otherwise({
 		redirectTo: '/list'
 	});
 	

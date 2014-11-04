@@ -1,12 +1,9 @@
 
-
 	[
 		{
 			"namn": "City Avenyn",
-			"ikon": "vektorrullstol", 
-			"ort":"Göteborg",
-			"lat": 57.699244,
-			"long": 11.977315
+			"ikon": "vektorrullstol",
+			"adress": "Kungsportsavenyn 34 Göteborg",
 			"oppettider": "07-21",
 			"gratis": "Ja",
 			"handikappanpassad": "Ja",
@@ -16,9 +13,7 @@
 		{
 			"namn": "Stadsmuseet",
 			"ikon": "vektornapp",
-			"ort":"Göteborg",
-			"lat": 57.706498,
-			"long": 11.963479
+			"adress": "Norra Hamngatan 12 Göteborg",
 			"oppettider": "Dygnet runt",
 			"gratis": "Ja",
 			"handikappanpassad": "Ja",
@@ -28,9 +23,7 @@
 		{
 			"namn": "Hemköp",
 			"ikon": "vektordollar",
-			"ort":"Göteborg",
-			"lat": 57.702145,
-			"long": 11.961249
+			"adress": "Hvitfeldtsplatsen 3 Göteborg",
 			"oppettider": "08-22",
 			"gratis": "Nej",
 			"handikappanpassad": "Ja",
@@ -39,4 +32,3 @@
 		
 
 	]
-

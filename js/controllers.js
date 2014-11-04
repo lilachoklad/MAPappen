@@ -13,4 +13,16 @@
 				$scope.whichItem = $routeParams.itemId;
 				console.log (data);
 			});
+
 	});
+	
+
+	
+	
+myApp.controller('mainController', function ($scope) {
+	$scope.pageClass = 'list'
+});
+
+myApp.controller('detaljController', function ($scope) {
+	$scope.pageClass = 'undersida'
+});

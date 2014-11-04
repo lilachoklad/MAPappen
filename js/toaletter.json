@@ -4,7 +4,9 @@
 		{
 			"namn": "City Avenyn",
 			"ikon": "vektorrullstol", 
-			"adress": "Kungsportsavenyn 34 Göteborg",
+			"ort":"Göteborg",
+			"lat": 57.699244,
+			"long": 11.977315
 			"oppettider": "07-21",
 			"gratis": "Ja",
 			"handikappanpassad": "Ja",

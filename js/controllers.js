@@ -13,6 +13,7 @@
 				$scope.whichItem = $routeParams.itemId;
 				console.log (data);
 			});
+
 	});
 	
 

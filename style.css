@@ -209,6 +209,10 @@ a#displayText {
 	float: right;
 	height: 25px;
 	padding-right: 20px;
+<<<<<<< HEAD
+	margin-top: -20px;
+=======
     margin-top:-20px;
+>>>>>>> 17092a5de926e98e309a59b54299115e2c23b99b
 
 }

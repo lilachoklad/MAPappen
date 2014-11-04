@@ -6,7 +6,7 @@
 			"ikon": "vektorrullstol",
 			"adress": "Kungsportsavenyn 34 Göteborg",
 			"oppettider": "07-21",
-			"gratis": "Ja",
+			"gratis": "ja",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		},
@@ -16,7 +16,7 @@
 			"ikon": "vektornapp",
 			"adress": "Norra Hamngatan 12 Göteborg",
 			"oppettider": "Dygnet runt",
-			"gratis": "Ja",
+			"gratis": "ja",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		},
@@ -26,7 +26,7 @@
 			"ikon": "vektordollar",
 			"adress": "Hvitfeldtsplatsen 3 Göteborg",
 			"oppettider": "08-22",
-			"gratis": "Nej",
+			"gratis": "nej",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		}

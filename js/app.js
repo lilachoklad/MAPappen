@@ -18,3 +18,25 @@ myApp.config(['$routeProvider', function($routeProvider) {
 	});
 	
 }])
+
+var myApp = angular.module('myApp', [
+	'ngRoute',
+	'ngAnimate'
+]);
+
+
+
+
+myApp.config(function($routeProvider) {
+	$routeProvider.
+	
+	when('/list', {
+		templateUrl: 'partials/list.html',
+		controller: 'mainController'
+	}).
+	
+		when('/undersida', {
+		templateUrl: 'partials/undersida.html',
+		controller: 'detaljController'
+	});
+});

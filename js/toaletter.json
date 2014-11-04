@@ -8,7 +8,7 @@
 			"lat": 57.699244,
 			"long": 11.977315
 			"oppettider": "07-21",
-			"gratis": "ja",
+			"gratis": "Ja",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		},
@@ -18,7 +18,7 @@
 			"ikon": "vektornapp",
 			"adress": "Norra Hamngatan 12 Göteborg",
 			"oppettider": "Dygnet runt",
-			"gratis": "ja",
+			"gratis": "Ja",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		},
@@ -28,7 +28,7 @@
 			"ikon": "vektordollar",
 			"adress": "Hvitfeldtsplatsen 3 Göteborg",
 			"oppettider": "08-22",
-			"gratis": "nej",
+			"gratis": "Nej",
 			"handikappanpassad": "Ja",
 			"skotbord": "Ja"
 		}

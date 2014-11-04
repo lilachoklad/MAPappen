@@ -6,6 +6,28 @@
 	<p class="info-text"><span class="tjocktext">Skötbord:</span> {{toaletter[whichItem].skotbord}}</p>
 </div>
 
+<!-- Detaljerad vägbeskrivning -->
+			<script type="text/javascript"> 
+				function toggle() {
+					var ele = document.getElementById("toggleText");
+					if(ele.style.display == "block") {
+							ele.style.display = "none";
+					}
+					else {
+						ele.style.display = "block";
+					}
+				} 
+			</script>
+			 
+			<a id="displayText" href="javascript:toggle();">
+				<div id="vagbeskrivning-knapp">
+					Detaljerad vägbeskrivning<i class="icon-down-open icon-in-list" ></i>
+				</div> 
+			</a>
+			<div id="toggleText" style="display: none">
+				<div id="map-directions"> </div>
+			</div>
+
 <!-- Tillbakaknapp -->
 <a href="index.html">
 	<div id="tillbaka">

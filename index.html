@@ -48,9 +48,11 @@
 
 			<!-- iPad Portrait -->
 			<link rel="apple-touch-startup-image" sizes="768x1004" href="bilder/splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
-        
+			
 			<script src="angular.js"></script>
-			<script src="controllers.js"></script>
+			<script src="angular-route.js"></script>
+			<script src="js/app.js"></script>
+			<script src="js/controllers.js"></script>
 		
 	</head>
 
@@ -60,7 +62,7 @@
 			<img id="english" src="united_kingdom_glossy_square_icon_64.png">
 			<img id="sweden" src="sweden_glossy_square_icon_64.png">-->
          
-            <embed src="hello.wav" width="1" height="1" autostart="true" loop="false" ><a href="index.html"></a><img class="logga" src="bilder/Toilets_unisex2.png" alt="logga"></a></embed>
+            <a href="index.html"></a><img class="logga" src="bilder/Toilets_unisex2.png" alt="logga"></a>
         <a href="index.html"><h1>Where to pee?</h1></a>
 
 			
@@ -126,10 +128,8 @@
 
 			<!-- Lista med närmsta toaletterna -->
 			
-			<div ng-controller = "MyController">
-				<ul>
-					<li ng-repeat="item in toaletter"><a href="undersida.html"><p>{{item.namn}} <i class="icon-right-open icon-in-list" ></i><img class="ikon" src="bilder/{{item.ikon}}.png"  alt="kostnad"></p></a></li>
-				</ul> 
+			<div ng-view>
+				
 			
 			</div>
 

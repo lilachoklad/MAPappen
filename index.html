@@ -12,7 +12,7 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>	
-		<script>
+		<!--<script>
 			if (navigator.geolocation) {
 			  navigator.geolocation.getCurrentPosition(success);
 			} else {
@@ -24,7 +24,7 @@
 				 var lat = position.coords.latitude;
 				 var long = position.coords.longitude;
 			}
-		</script>
+		</script> -->
 					
 			<link rel="apple-touch-icon" href="toa120.png" />
 			<link rel="apple-touch-icon" sizes="180x180" href="bilder/toa180.png" />
@@ -57,7 +57,7 @@
 		
 	</head>
 
-	<body data-ng-controller="ListController">
+	<body>
 
 		<header> <!-- Sandra innanför den här taggen som heter header skriver du allting som ska vara i headern -->
 
@@ -76,18 +76,21 @@
 			
             
             <!-- Karta -->
-			<div id="map-canvas"></div>
-		   
-			<ul>
-				<li data-ng-repeat="marker in markers">
-					<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}, {{marker.platsen}}</a>
-				</li>
-			</ul>
-				
-			<div class="row" ng-show="error">
-				Error : {{error}}
-				Error Code: {{error.code}}
-			</div> 
+			<div data-ng-controller="AppController">
+				<div id="map-canvas"></div>
+			   
+				<ul>
+					<li data-ng-repeat="marker in markers">
+						<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}, {{marker.platsen}}</a>
+					</li>
+				</ul>
+					
+				<div class="row" ng-show="error">
+					Error : {{error}}
+					Error Code: {{error.code}}
+				</div> 
+			</div>
+			
             
             <!-- gammal kartkod 
 			<!-- KARTA

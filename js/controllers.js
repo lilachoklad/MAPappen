@@ -1,11 +1,14 @@
 var toaControllers = angular.module('toaControllers', []);
 
-    toaControllers.controller('ListController', function ($scope, $http, $log) {
+
+    toaControllers.controller('ListController', function ($scope, $http){
 		$http.get('js/toaletter.json').success(function(data) {
 			$scope.toaletter = data;
 			console.log (data);
 		});
+	});
     
+toaControllers.controller('AppController', function AppController ($scope, $http, $log){
     
 var mapOptions = {
         zoom: 10,
@@ -27,7 +30,7 @@ var mapOptions = {
             map: $scope.map,
             position: new google.maps.LatLng(info.lat, info.long),
             title: info.namn,
-
+            platsen: info.ort
         });
         marker.content = '<div class="infoWindowContent">' + info.ort + '</div>';
         

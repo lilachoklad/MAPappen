@@ -10,7 +10,7 @@ var toaControllers = angular.module('toaControllers',[]);
 var mapOptions = {
         zoom: 10,
         center: new google.maps.LatLng(37.361971 , -122.032356),  //Centrerar på San Francisco. Geo location längre ner.
-        mapTypeId: google.maps.MapTypeId.TERRAIN
+        mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     
     $scope.map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -27,7 +27,7 @@ var mapOptions = {
             map: $scope.map,
             position: new google.maps.LatLng(info.lat, info.long),
             title: info.namn,
-            platsen: info.ort
+
         });
         marker.content = '<div class="infoWindowContent">' + info.ort + '</div>';
         

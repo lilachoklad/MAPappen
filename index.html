@@ -47,7 +47,7 @@
 			<!-- iPad Portrait -->
 			<link rel="apple-touch-startup-image" sizes="768x1004" href="bilder/splash768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
         
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+			<script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 			
 			<script src="angular.js"></script>
 			<script src="angular-route.js"></script>
@@ -76,18 +76,18 @@
 			
             
             <!-- Karta -->
-		<div id="map-canvas"></div>
-	   
-		<ul>
-			<li data-ng-repeat="marker in markers">
-				<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}, {{marker.platsen}}</a>
-			</li>
-		</ul>
-			
-		<div class="row" ng-show="error">
-			Error : {{error}}
-			Error Code: {{error.code}}
-		</div> 
+			<div id="map-canvas"></div>
+		   
+			<ul>
+				<li data-ng-repeat="marker in markers">
+					<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}, {{marker.platsen}}</a>
+				</li>
+			</ul>
+				
+			<div class="row" ng-show="error">
+				Error : {{error}}
+				Error Code: {{error.code}}
+			</div> 
             
             <!-- gammal kartkod 
 			<!-- KARTA

@@ -223,6 +223,8 @@ a#displayText {
 }
 
 #map-canvas {
-    height: 500px;
-    width: 100%;
+   	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }

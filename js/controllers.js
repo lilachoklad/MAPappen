@@ -1,6 +1,6 @@
 var toaControllers = angular.module('toaControllers',[]);
 
-    toaControllers.controller('ListController', function ($scope, $http){
+    toaControllers.controller('ListController', function ($scope, $http, $log){
 		$http.get('js/toaletter.json').success(function(data) {
 			$scope.toaletter = data;
 			console.log (data);

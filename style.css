@@ -242,3 +242,10 @@ a#displayText {
   left:-100px;
   opacity:0;
 }
+
+#map-canvas {
+   	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

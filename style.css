@@ -211,3 +211,13 @@ a#displayText {
 	padding-right: 2%;
 	margin-top: -20px;
 }
+
+.ng-enter {
+	animation: slideOutRight 0.5s both ease-in;
+	z-index: 9999;
+}
+
+.ng-leave {
+	animation: slideOutRight 0.5s both ease-in;
+	z-index: 9999;
+}

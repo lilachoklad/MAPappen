@@ -221,3 +221,8 @@ a#displayText {
 	animation: slideOutRight 0.5s both ease-in;
 	z-index: 9999;
 }
+
+#map-canvas {
+    height: 500px;
+    width: 100%;
+}

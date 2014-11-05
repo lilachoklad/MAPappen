@@ -1,3 +1,12 @@
+<!-- Karta -->
+<div data-ng-controller="AppController">
+	<div id="map-canvas"></div>
+	<div class="row" ng-show="error">
+		Error : {{error}}
+		Error Code: {{error.code}}
+	</div> 
+</div>
+
 <ul>
 	<li ng-repeat="item in toaletter">
 		<a href="#/undersida/{{toaletter.indexOf(item)}}">

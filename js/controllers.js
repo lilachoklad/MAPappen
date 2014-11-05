@@ -68,6 +68,15 @@ var mapOptions = {
 
         var latlng = new google.maps.LatLng($scope.lat, $scope.lng);
         $scope.map.setCenter(latlng);
+		
+		var currentPosition = { //Variabel för geolocation marker på kartan
+			lat: position.coords.latitude, 
+			long: position.coords.longitude, 
+			namn: "Här är du", 
+			ort: ""
+		};
+		
+		createMarker(currentPosition);
     }
 
     //Hanterar felmeddelanden.

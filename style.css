@@ -119,14 +119,14 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 
 .icon-in-list {
-	color: #d35400;
+	color: #C35145;
 	float: right;
 	/*font-size: 2em; */
 	padding-right: 6%;
 }
 
 .icon-tillbaka{
- 	color: #d35400;
+ 	color: #C35145;
 	float: left;
 	/*font-size: 2em;*/
 }

@@ -223,7 +223,7 @@ a#displayText {
 
 .ng-enter {
   opacity:0;
-  left:200px;
+  left:100px;
   width:100%;
   position:absolute;
  }
@@ -236,14 +236,14 @@ a#displayText {
 
 .ng-leave {
   position:absolute;
-  left:200px;
+  left:100px;
   width:100%;
   opacity:1;
 
 }
 
 .ng-leave.ng-leave-active {
-  left:-50px;
+  left:-100px;
   opacity:0;
 }
 

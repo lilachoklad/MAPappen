@@ -1,4 +1,29 @@
 [
+
+      {
+        "namn": "Oden",
+        "ikon": "vektordollar",
+        "ort": "Trollhättan",
+        "lat": 58.284811,
+        "long": 12.299217,
+        "oppettider": "08-22",
+        "gratis": "Nej",
+        "handikappanpassad": "Ja",
+        "skotbord": "Ja"
+    },
+
+    {
+        "namn": "Resecentrum",
+        "ikon": "vektordollar",
+        "ort": "Trollhättan",
+        "lat": 58.288114,
+        "long": 12.291405,
+        "oppettider": "08-22",
+        "gratis": "Nej",
+        "handikappanpassad": "Ja",
+        "skotbord": "Ja"
+    },
+
     {
         "namn": "City Avenyn",
         "ikon": "vektorrullstol",
@@ -32,4 +57,8 @@
         "handikappanpassad": "Ja",
         "skotbord": "Ja"
     }
+
+  
+
+
 ]

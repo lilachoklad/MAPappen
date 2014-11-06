@@ -1,4 +1,13 @@
-﻿<div ng-model="toaletter">
+﻿<!-- Karta -->
+<div data-ng-controller="AppController">
+	<div id="map-canvas"></div>
+	<div class="row" ng-show="error">
+		Error : {{error}}
+		Error Code: {{error.code}}
+	</div> 
+</div>
+
+<div ng-model="toaletter">
 	<h3>{{toaletter[whichItem].namn}}</h3>
 	<p class="info-text"><span class="tjocktext">Öppettider:</span> {{toaletter[whichItem].oppettider}}</p>
 	<p class="info-text"><span class="tjocktext">Gratis:</span> {{toaletter[whichItem].gratis}}</p>

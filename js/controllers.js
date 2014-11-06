@@ -135,11 +135,14 @@ var mapOptions = {
             //Anropar funtionen showPosition ovan om GeoLocation stöds av webbläsaren
             navigator.geolocation.getCurrentPosition($scope.showPosition, $scope.showError);
 			
-			return navigator.geolocation.getCurrentPosition(function (position) {
+			navigator.geolocation.getCurrentPosition(function (position) {
 			var pos = new google.maps.LatLng(position.coords.latitude,
 											 position.coords.longitude);
-			console.log(pos);
-			return pos; });
+			
+			$scope.$apply(function () {
+                    $scope.fromAddress = pos;
+                });
+			 });
         }
         else {
             $scope.error = "Geolocation is not supported by this browser.";
@@ -182,8 +185,6 @@ var mapOptions = {
 		directionsDisplay.setMap($scope.map);
 		directionsDisplay.setPanel(document.getElementById('directions'));
 
-		console.log($scope.getLocation());
-		$scope.fromAddress = $scope.getLocation (); 
 		$scope.selectedOption = 'Driving';
 		$scope.options = ['Driving', 'Walking', 'Bicycling', 'Transit'];
 		$scope.totalKm = 0;
@@ -229,7 +230,8 @@ var mapOptions = {
 		});
 
 		// fire it up initially
-
+			
+			$scope.getLocation (); 
 			$scope.setDirections();
 			
 			

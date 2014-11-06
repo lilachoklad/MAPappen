@@ -11,7 +11,7 @@ var toaControllers = angular.module('toaControllers', []);
 toaControllers.controller('AppController', function AppController ($scope, $http, $log){
     
 var mapOptions = {
-        zoom: 10,
+        zoom: 13,
         center: new google.maps.LatLng(37.361971 , -122.032356),  //Centrerar på San Francisco. Geo location längre ner.
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
